@@ -1,0 +1,16 @@
+令
+\begin{equation}
+\hat{N_k}=(N_k -1)^+ =\begin{cases}
+N_k-1\, N_k>=1\\
+N_k(=0),N_k=0
+\end{cases}
+\end{equation}
+
+则第k+1个顾客离开时的排队人数$N_{k+1}$可表示为
+\begin{equation}
+N_{k+1}=\hat{N_k}+V_{k+1}
+\end{equation}
+
+V即第k+1个顾客服务中新到来的顾客人数.$\{V_i\}$和$\{\hat{N_i}\}$独立.
+
+平衡分布时, 有$G_N(z)=G_{\hat{N}}(z)\cdot G_V (z)$. 进而可以导出不同人数的概率分布, 这一部分推导参见\cite{16}, 而平衡分布的母函数$G_N(z)$见下一小节.
